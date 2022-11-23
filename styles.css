@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -9,15 +13,50 @@ aside {
     background-color: #add8e6;
     color: #ffffff;
     width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
 }
 
 header {
     grid-area: 1 / 2 / 2 / 3;
     height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search {
+
+}
+
+.top-right {
+
+}
+
+.user-info {
+
+}
+
+.buttons {
+
 }
 
 .main-content {
     grid-area: 2 / 2 / 3 / 3;
     background-color: #d3d3d3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
+.projects {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending {
+    grid-area: 2 / 2 / 3 / 3;
+}
