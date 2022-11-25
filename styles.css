@@ -17,6 +17,25 @@ aside {
     grid-template-rows: 1fr 5fr;
 }
 
+.branding {
+    margin: auto;
+}
+
+.branding > img {
+    filter: invert(100%);
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+aside img {
+    height: 1rem;
+    width: auto;
+    padding: 5px;
+    filter: invert(100%);
+}
+
 header {
     grid-area: 1 / 2 / 2 / 3;
     height: 100px;
