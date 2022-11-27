@@ -23,6 +23,8 @@ aside {
 
 .branding > img {
     filter: invert(100%);
+    position: relative;
+    top: 7px;
 }
 
 ul > li {
@@ -34,6 +36,8 @@ aside img {
     width: auto;
     padding: 5px;
     filter: invert(100%);
+    position: relative;
+    top: 7px;
 }
 
 header {
@@ -42,6 +46,7 @@ header {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
+    padding: 0.5rem;
 }
 
 .search {
@@ -53,7 +58,15 @@ header {
 }
 
 .user-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
 
+.user-name {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .buttons {
@@ -78,4 +91,8 @@ header {
 
 .trending {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+a {
+    text-decoration: none;
 }
