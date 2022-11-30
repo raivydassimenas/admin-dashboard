@@ -60,7 +60,16 @@ header {
 }
 
 .top-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+#bell-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
 }
 
 .user-info {
