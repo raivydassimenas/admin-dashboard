@@ -111,6 +111,20 @@ header {
 
 .projects {
     grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons > img {
+    padding: 0.5rem;
+    width: 2rem;
+    height: auto;
 }
 
 .announcements {
