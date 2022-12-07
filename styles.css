@@ -114,6 +114,14 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-left: #ff8c00 solid 0.5rem;
 }
 
 .icons {
